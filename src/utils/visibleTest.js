@@ -1,0 +1,1 @@
+export const visibleTest = ({fields}) => fields.files?.some(({fields}) => fields?.hidden !== true)

@@ -1,0 +1,32 @@
+html {
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 62.5%;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'SF UI Text';
+  font-style: normal;
+  font-weight: 500;
+  src: local('SF UI Text Medium'), url("fonts/SFUIText-Medium.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'SF UI Text';
+  font-style: normal;
+  font-weight: 800;
+  src: local('SF UI Text Heavy'), url("fonts/SFUIText-Heavy.woff") format('woff');
+}
